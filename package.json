@@ -9,6 +9,7 @@
   "author": "chandra sekhar sahu",
   "license": "ISC",
   "dependencies": {
+    "env": "^0.0.2",
     "express": "^4.18.1",
     "http": "^0.0.1-security",
     "socket.io": "^4.5.1",

@@ -8,7 +8,7 @@ io.on('connection', (socket) => {
         socket.emit('data', "welcome from the server");
     });
 });
-
-server.listen(8080,(socket)=>{
+const port = process.env.PORT || 8080;
+server.listen(port,(socket)=>{
     console.log('Server running at http://localhost:8080');
 });
